@@ -12,6 +12,9 @@ Online recruitment fraud is a growing concern for job seekers. Fraudulent job po
 
 ## 📊 Dataset Summary
 
+> [!NOTE]
+> Due to its file size (~50 MB), `fake_job_postings.csv` is excluded from version control via `.gitignore`. You can download the dataset from Kaggle ([Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-job-posting-prediction)) and place it in the project root folder.
+
 The dataset (`fake_job_postings.csv`) contains 17,880 rows and 18 attributes:
 
 - **Target Variable**: `fraudulent` (`0` = Legitimate, `1` = Fraudulent)
@@ -53,7 +56,8 @@ The dataset (`fake_job_postings.csv`) contains 17,880 rows and 18 attributes:
 
 ```
 job_posting_prediction/
-├── fake_job_postings.csv        # Dataset (17,880 records)
+├── .gitignore                   # Specifies untracked files (excluding dataset & checkpoints)
+├── fake_job_postings.csv        # Dataset file (ignored by Git, place locally)
 ├── job_posting_prediction.ipynb # EDA, preprocessing, and modeling notebook
 └── README.md                    # Project documentation
 ```
@@ -72,15 +76,13 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 ### Running the Notebook
 
-1. Clone or navigate to the workspace directory:
-   ```bash
-   cd /Users/macgr/Desktop/projects/job_posting_prediction
-   ```
-2. Launch Jupyter Notebook:
+1. Clone or navigate to the repository directory.
+2. Download `fake_job_postings.csv` (e.g. from Kaggle) and place it in the project root directory.
+3. Launch Jupyter Notebook:
    ```bash
    jupyter notebook job_posting_prediction.ipynb
    ```
-3. Run all cells to replicate the EDA and preprocessing steps.
+4. Run all cells to replicate the EDA and preprocessing steps.
 
 ---
 
