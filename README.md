@@ -13,7 +13,7 @@ Online recruitment fraud is a growing concern for job seekers. Fraudulent job po
 ## 📊 Dataset Summary
 
 > [!NOTE]
-> Due to its file size (~50 MB), `fake_job_postings.csv` is excluded from version control via `.gitignore`. You can download the dataset from Kaggle ([Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-job-posting-prediction)) and place it in the project root folder.
+> Due to its file size (~50 MB), `fake_job_postings.csv` is excluded from version control via `.gitignore`. You can download the dataset from Kaggle ([Real or Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction?select=fake_job_postings.csv)) and place it in the project root folder.
 
 The dataset (`fake_job_postings.csv`) contains 17,880 rows and 18 attributes:
 
