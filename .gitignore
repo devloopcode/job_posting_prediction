@@ -1,0 +1,19 @@
+# Data files
+fake_job_postings.csv
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
