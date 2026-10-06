@@ -5,7 +5,6 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=flat-square&logo=pandas&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-2C8EBB?style=flat-square&logo=xgboost&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 An end-to-end Machine Learning and Natural Language Processing (NLP) pipeline designed to detect fraudulent job postings, protecting job seekers from recruitment scams, identity theft, and financial fraud.
 
@@ -141,12 +140,9 @@ jupyter notebook job_posting_prediction.ipynb
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/devloopcode/job_posting_prediction/issues).
+
+
+
